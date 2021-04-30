@@ -20,19 +20,18 @@ The state space is 37-dimensional, while the action space is discrete and consis
 
 The task is episodic (every episodes lasts for at most 300 timesteps).
 The environment is said to be solved if the agent has an average score of at least +13 over 100 consecutive epsidodes.
-### Getting Started
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+### Installation
+
+If you want to use the [Navigation.ipynb](Navigation.ipynb)-notebook to train an agent on your own you first have to download several packages and the environment. 
+
+To install all the necessary packages and dependencies you can set up a new python environment as explained in the README.md in the [DRLND Github repository](https://github.com/udacity/deep-reinforcement-learning#dependencies).
+Depending on your operating system you can download the environment using one of the following links:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
-    
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
-
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
-
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+After downloading the file you have to unzip it. Then follow the instructions on the top of the Jupyter Notebook to instantiate the environment. Note that in the code the visualization of the environment is turned off. Ofcourse this can be changed. 
 
 ### Instructions
 
