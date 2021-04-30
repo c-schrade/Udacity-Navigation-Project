@@ -8,7 +8,7 @@ The Jupyter-Notebook-File [Navigation.ipynb](Navigation.ipynb) includes my solut
 
 ### Introduction
 
-In this project I trained an agent to navigate in a square world (with yellow and blue bananas in it) and collect as many yellow bananas as possible while avoiding the blue ones. The training is done by adapting the deep Q-learning algorithm from the Nature article ["Human-level control through deep reinforcement learning" to this "Banana-environment"](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf). to this "Banana-Environment".
+In this project I trained an agent to navigate in a square world (with yellow and blue bananas in it) and collect as many yellow bananas as possible while avoiding the blue ones. The training is done by adapting the deep Q-learning algorithm from the Nature article ["Human-level control through deep reinforcement learning"](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf). to this "Banana-Environment".
 
 ![Trained Agent][image1]
 
