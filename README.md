@@ -26,7 +26,7 @@ The environment is said to be solved if the agent has an average score of at lea
 If you want to use the [Navigation.ipynb](Navigation.ipynb)-notebook to train an agent on your own you first have to download several packages and the environment. 
 
 To install all the necessary packages and dependencies you can set up a new python environment as explained in the README.md in the [DRLND Github repository](https://github.com/udacity/deep-reinforcement-learning#dependencies).
-Depending on your operating system you can download the environment using one of the following links:
+Depending on your operating system you can download the environment using one of the following links (the extraction of the file that I downloaded is the Banana_Linux folder that is included in repository):
 
  * Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
  * Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
