@@ -42,9 +42,9 @@ After you instantiated the environment in the first part you can examine the sta
 By running the cells in the fourth part you can train an agent on the environment and test the intelligent agent afterwards. 
 After defining the necessary classes and functions one first sets up the agent by creating an instance of the Agent-class. Then (by running the dqn()-function) the deep Q-learning algorithm is carried out with this agent. 
 
-The agent stops learning after the goal of an average total reward of +13 over 100 consecutive is reached. You can then plot the improving performance of your agent that was achieved during training.
+The agent stops learning after the goal is reached (average total reward of +13 over 100 consecutive episodes). You can plot the performance of your agent that was achieved during training.
 
-At the end of the notebook you can then test your trained agent on 100 episodes and check his performance by looking at the score-plot and the averahe score it got in these 100 last episodes.
+At the end of the notebook you can test your trained agent on 100 further episodes and check its performance by looking at the score-plot and the average score it got in these 100 last episodes.
 
 
 
