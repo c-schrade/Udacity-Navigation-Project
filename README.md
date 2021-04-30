@@ -14,7 +14,7 @@ In this project I trained an agent to navigate in a square world (with yellow an
 
 ### Description of the Environment
 
-The agent gets a reward of +1 for collecting a yellow banana and a reward of -1 for collecting a blue banana.  Since the goal is to get maximal cumulative reward per episode, the agent therefore gets trained to collect as many yellow bananas as possible.
+The agent gets a reward of +1 for collecting a yellow banana and a reward of -1 for collecting a blue banana.  Since the goal is to get maximal cumulative reward per episode, the agent therefore gets trained to collect as many yellow and as few blue bananas as possible.
 
 The state space is 37-dimensional, while the action space is discrete and consists of the set of integers from 0 to 3 (inclusive), where "0" corresponds to moving forward, "1" to moving backward, "2" to turning left and "3" to turning right.
 
