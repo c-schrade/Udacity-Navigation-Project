@@ -2,24 +2,24 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
-# Project 1: Navigation
+# Udacity-Navigation-Project
+
+The Jupyter-Notebook-File [Navigation.ipynb](Navigation.ipynb) includes my solution to the Navigation-Project in the Deep-Reinforcement-Learning-Nanodegree.
 
 ### Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+In this project I trained an agent to navigate in a square world (with yellow and blue bananas in it) and collect as many yellow bananas as possible while avoiding the blue ones. The training is done by adapting the deep Q-learning algorithm from the Nature article ["Human-level control through deep reinforcement learning" to this "Banana-environment"](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf). to this "Banana-Environment".
 
 ![Trained Agent][image1]
 
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
+### Description of the Environment
 
-The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  Given this information, the agent has to learn how to best select actions.  Four discrete actions are available, corresponding to:
-- **`0`** - move forward.
-- **`1`** - move backward.
-- **`2`** - turn left.
-- **`3`** - turn right.
+The agent gets a reward of +1 for collecting a yellow banana and a reward of -1 for collecting a blue banana.  Since the goal is to get maximal cumulative reward per episode, the agent therefore gets trained to collect as many yellow bananas as possible.
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The state space is 37-dimensional, while the action space is discrete and consists of the set of integers from 0 to 3 (inclusive), where "0" corresponds to moving forward, "1" to moving backward, "2" to turning left and "3" to turning right.
 
+The task is episodic (every episodes lasts for at most 300 timesteps).
+The environment is said to be solved if the agent has an average score of at least +13 over 100 consecutive epsidodes.
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
