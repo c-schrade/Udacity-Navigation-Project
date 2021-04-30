@@ -35,22 +35,16 @@ Depending on your operating system you can download the environment using one of
 
 After downloading the file you have to unzip it. Then follow the instructions in the first part of the Jupyter Notebook to instantiate the environment. Note that in the code the visualization of the environment is turned off. Ofcourse this can be changed. 
 
-### Instructions
+### Instructions on [Navigation.ipynb](Navigation.ipynb)-notebook
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+After you instantiated the environment in the first part you can examine the state and action space in the second part. In the third part you can check how a random agent performs in the environment.
 
-### (Optional) Challenge: Learning from Pixels
+By running the cells in the fourth part you can train an agent on the environment and test the intelligent agent afterwards. After defining the necessary classes and functions one first sets up the agent by creating an instance of the Agent-class. After that (by running the dqn()-function) the deep Q-learning algorithm is carried out with this agent. 
 
-After you have successfully completed the project, if you're looking for an additional challenge, you have come to the right place!  In the project, your agent learned from information such as its velocity, along with ray-based perception of objects around its forward direction.  A more challenging task would be to learn directly from pixels!
+The agent stops learning after the goal of an average total reward of +13 over 100 consecutive is reached. You can then plot the improving performance of your agent that was achieved during training.
 
-To solve this harder task, you'll need to download a new Unity environment.  This environment is almost identical to the project environment, where the only difference is that the state is an 84 x 84 RGB image, corresponding to the agent's first-person view.  (**Note**: Udacity students should not submit a project with this new environment.)
+At the end of the notebook you can then test your trained agent on 100 episodes and check his performance by looking at the score-plot and the averahe score it got in these 100 last episodes.
 
-You need only select the environment that matches your operating system:
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
 
-Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Navigation_Pixels.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
 
-(_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
+
