@@ -33,7 +33,7 @@ Depending on your operating system you can download the environment using one of
  * Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
  * Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-After downloading the file you have to unzip it. Then follow the instructions on the top of the Jupyter Notebook to instantiate the environment. Note that in the code the visualization of the environment is turned off. Ofcourse this can be changed. 
+After downloading the file you have to unzip it. Then follow the instructions in the first part of the Jupyter Notebook to instantiate the environment. Note that in the code the visualization of the environment is turned off. Ofcourse this can be changed. 
 
 ### Instructions
 
