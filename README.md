@@ -40,7 +40,7 @@ After downloading the file you have to unzip it. Then follow the instructions in
 After you instantiated the environment in the first part you will examine the state and action space in the second. In the third part you can check how a random agent performs in the environment.
 
 By running the cells in the fourth section you will train your own agent on the environment and test it afterwards.  
-Once the necessary classes and functions are defined you will set up an agent by creating an instance of the Agent-class. Then (by running the dqn()-function) the deep Q-learning algorithm is carried out on this agent. 
+Once the necessary classes (QNetwork, Agent and ReplayBuffer) and functions (dqn()) are defined you will set up an agent by creating an instance of the Agent-class. Then (by running the dqn()-function) the deep Q-learning algorithm is carried out on this agent. 
 
 The agent stops learning after the goal is reached (average total reward of +13 over 100 consecutive episodes). You can plot the performance of your agent that was achieved during training.
 
