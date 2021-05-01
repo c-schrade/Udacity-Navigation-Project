@@ -30,18 +30,17 @@ In cell 14 the dqn()-function is defined. By calling this function later the dee
 * The environment is reset (lines 15-16)
 * the agent acts (line 19), gets an reward and a new state (lines 20-22) and learns by calling the step-method (line 24)
 * The cumulative reward that was achieved in the episode gets stored in the scores-list and the scores_window-deque (lines 29-30)
-
 The scores_window-deque is used to check if the goal was reached in the current episode (line 35) and the scores-list is used for a plot later.
 
 
+In cell 15 an Agent-object is created and in cell 16 the deep Q-learning algorithm is finally carried out by calling the dqn()-function. Implicitely the following further hyperparameters are used (see also line 1 of cell 14):
+* maximal number of learning episodes: n_episodes=1000
+* start value for epsilon: eps_start=1.0
+* decay factor for epsilon per episode: eps_decay=0.995
+* minimal epsilon: eps_end=0.01
 
-
-
-
-
-
-
-
-
+In cell 17 the achieved total reward per epsisode is plotted. This plot you can also see here:
 ![image info](./Pictures/training.png)
+In cell 19 the trained agent is run for 100 more episodes in the Banana-Environment to check its performance. The average score is printed and the scores that were achieved in every episode are plotted. This plot you can also see here:
 ![image info](./Pictures/test.png)
+In the last cell the environment gets closed.
