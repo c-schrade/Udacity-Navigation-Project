@@ -1,3 +1,5 @@
+# Report
+
 This is the detailed report on my implementation of the deep Q-learning algorithm for the Banana-Collector environment. I will just go through part 4 of the [Navigation.ipynb](Navigation.ipynb)-notebook because the learning algorithm is implemented there. Also note that in part 4 I mostly adapted the code from the exercise in the Deep Q-networks lesson. Note also that the environment is already instantiated in part 1 of the notebook and referenced by the name "env".
 
 Now to part 4:
