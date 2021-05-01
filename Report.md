@@ -44,6 +44,8 @@ The goal was reached after a total number of 477 episodes. Since the average sco
 
 In cell 17 the achieved total reward per epsisode is plotted. This plot you can also see here:
 ![image info](./Pictures/training.png)
+
 In cell 19 the trained agent is run for 100 more episodes in the Banana-Environment to check its performance. The average score is printed and the scores that were achieved in every episode are plotted. This plot you can also see here:
 ![image info](./Pictures/test.png)
+
 In the last cell the environment gets closed.
