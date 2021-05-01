@@ -39,6 +39,7 @@ In cell 15 an Agent-object is created and in cell 16 the deep Q-learning algorit
 * start value for epsilon: eps_start=1.0
 * decay factor for epsilon per episode: eps_decay=0.995
 * minimal epsilon: eps_end=0.01
+The goal was reached after a total number of 477 episodes. Since the average score over 100 consecutive episodes is checked, this means that the environment was solved after 377 episodes.
 
 In cell 17 the achieved total reward per epsisode is plotted. This plot you can also see here:
 ![image info](./Pictures/training.png)
