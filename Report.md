@@ -49,3 +49,17 @@ In cell 19 the trained agent is run for 100 more episodes in the Banana-Environm
 ![image info](./Pictures/test.png)
 
 In the last cell the environment gets closed.
+
+### Ideas for future work
+
+I just adapted the hyperparameters from the Deep Q-Networks coding exercise and they worked well enough. But I haven't really played around with the hyperparameters and I would guess that there are still some possibilities to tweak them.
+
+Furthermore one could try out the six extensions of the DQN algorithm that were implemented in the Rainbow algorithm:
+* Double DQN
+* Prioritized experience replay 
+* Dueling DQN 
+* Learning from multi-step bootstrap targets
+* Distributional DQN
+* Noisy DQN
+
+I have no a priori idea if those extensions would give performance improvement for the Banana-Collector environment but at least these are definitely things one could try out.
