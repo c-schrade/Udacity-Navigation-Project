@@ -31,6 +31,7 @@ In cell 14 the dqn()-function is defined. By calling this function later the dee
 * The agent acts (line 19), gets a reward and a new state (lines 20-22) and learns by calling the step-method (line 24).
 * The cumulative reward that was achieved in the episode gets stored in the scores-list and the scores_window-deque (lines 29-30).
 * The epsilon value gets decreased (line 31).
+
 The scores_window-deque is used to check if the goal was reached in the current episode (line 35) and the scores-list is used for a plot later.
 
 
