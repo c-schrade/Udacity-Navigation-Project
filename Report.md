@@ -1,1 +1,1 @@
-![image info](./pictures/training.png)
+![image info](./Pictures/training.png)
