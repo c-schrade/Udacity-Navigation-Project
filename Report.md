@@ -28,8 +28,8 @@ In the ReplayBuffer class (lines 113-151) it is defined how to add experiences t
 
 In cell 14 the dqn()-function is defined. By calling this function later the deep Q-learning step will actually be carried out. The training loop (lines 14-38) does the following things in each episode (until either the training went on for n_episodes=1000 episodes or the goal of having an average score of +13 over 100 consecutive episodes is reached; see lines 35-38):
 * The environment is reset (lines 15-16)
-* the agent acts (line 19), gets an reward and a new state (lines 20-22) and learns by calling the step-method (line 24)
-* The cumulative reward that was achieved in the episode gets stored in the scores-list and the scores_window-deque (lines 29-30)
+* The agent acts (line 19), gets a reward and a new state (lines 20-22) and learns by calling the step-method (line 24).
+* The cumulative reward that was achieved in the episode gets stored in the scores-list and the scores_window-deque (lines 29-30).
 The scores_window-deque is used to check if the goal was reached in the current episode (line 35) and the scores-list is used for a plot later.
 
 
